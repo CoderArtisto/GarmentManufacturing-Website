@@ -16,14 +16,14 @@ const Navbar = () => {
           <Image className="h-25 w-20" src={logo} />
         </a>
         <ul className="hidden md:flex">
-          <a href="#">
+          <a href="/">
             <li className="p-4 hover:text-gray-400 font-medium">Home</li>
           </a>
-          <a href="#">
+          <a href="/about">
             <li className="p-4 hover:text-gray-400 font-medium">About</li>
           </a>
-          <a href="#">
-            <li className="p-4 hover:text-gray-400 font-medium">Products</li>
+          <a href="/deeds">
+            <li className="p-4 hover:text-gray-400 font-medium">Our Deeds</li>
           </a>
           <a href="#">
             <li className="p-4 hover:text-gray-400 font-medium">Blog</li>
@@ -44,10 +44,10 @@ const Navbar = () => {
         }
       >
         <ul className="text-white md:hidden ml-1 ease-in duration-500">
-          <a href="#">
+          <a href="/">
             <li className="p-4  hover:text-gray-400 font-medium">Home</li>
           </a>
-          <a href="#">
+          <a href="/about">
             <li className="p-4  hover:text-gray-400 font-medium">About</li>
           </a>
           <a href="#">
