@@ -1,26 +1,13 @@
 import Image from "next/image";
 import heroImg from "/public/img.jpg";
-import manuExcel from "/public/ManufacturingExcel.png";
+import f1 from "/public/ManufacturingExcel.png";
+import f2 from "/public/machineryFinal.png";
+import f3 from "/public/sustainablity.jpg";
+import f4 from "/public/clientCentric.jpg";
 
 export default function Home() {
   return (
     <>
-      {/* <div className="bg-[#F9F9FF] w-full">
-        <div className="grid pt-5 pb-6 max-w-[1128px] mx-auto md:grid-cols-2 md:pt-12 md:pb-12">
-          <div>
-            <h1 className="text-4xl md:text-5xl font-bold m-4 text-black">
-              Elevate your style with Minu Creations, where precision meets
-              perfection.
-            </h1>
-            <button className="bg-red-500 ml-4 mt-2 md:mt-6 p-2 rounded-lg text-white font-bold ">
-              Lets Work Together
-            </button>
-          </div>
-          <div className="md:flex hidden justify-end">
-            <Image className="rounded-2xl h-full w-[50%]" src={heroImg} />
-          </div>
-        </div>
-      </div> */}
       <div className="bg-[#F9F9FF] w-full">
         <div className="grid pt-5 pb-6 max-w-[1128px] pr-4 mx-auto md:grid-cols-2 md:pt-12 md:pb-12">
           <div>
@@ -53,20 +40,20 @@ export default function Home() {
           specialize in crafting a wide range of custom-made components and
           products to meet the unique needs of our diverse clientele.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 max-w-[1128px] mx-auto mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 max-w-[1128px] mx-auto mt-8 text-white">
           <div className="p-4 text-center mb-6">
             <Image
               className="rounded-3xl h-4/5 w-4/5 mx-auto md:h-36 md:w-36"
-              src={manuExcel}
+              src={f1}
             />
             <h3 className="text-lg font-semibold mt-4">
-              Our Manufacturing Excellence
+              Our Crafting Excellence
             </h3>
           </div>
           <div className="p-4 text-center mb-6">
             <Image
               className="rounded-3xl h-4/5 w-4/5 md:h-36 md:w-36 mx-auto"
-              src={manuExcel}
+              src={f2}
             />
             <h3 className="text-lg font-semibold mt-4">
               Cutting-Edge Manufacturing Facility
@@ -75,7 +62,7 @@ export default function Home() {
           <div className="p-4 text-center mb-6">
             <Image
               className="rounded-3xl h-4/5 w-4/5 md:h-36 md:w-36 mx-auto"
-              src={manuExcel}
+              src={f3}
             />
             <h3 className="text-lg font-semibold mt-4">
               Innovating for a Sustainable Future
@@ -83,11 +70,11 @@ export default function Home() {
           </div>
           <div className="p-4 text-center mb-6">
             <Image
-              className="rounded-3xl h-4/5 w-4/5 mx-auto md:h-36 md:w-36"
-              src={manuExcel}
+              className="rounded-3xl h-4/5 w-3/5 mx-auto md:h-36 md:w-36"
+              src={f4}
             />
             <h3 className="text-lg font-semibold mt-4">
-              Your Vision is Our Mission
+              Client-Centric Approach
             </h3>
           </div>
         </div>

@@ -1,6 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import Image from "next/image";
+import logo from "/public/logo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(true);
@@ -9,9 +11,9 @@ const Navbar = () => {
   };
   return (
     <>
-      <div className=" text-black flex px-4 py-6 justify-between mx-auto max-w-[1128px] items-center">
+      <div className=" text-white flex px-4 py-2 justify-between mx-auto max-w-[1128px] items-center">
         <a href="#">
-          <h1 className=" w-full text-2xl font-bold">Minu Creations</h1>
+          <Image className="h-25 w-20" src={logo} />
         </a>
         <ul className="hidden md:flex">
           <a href="#">
@@ -37,11 +39,11 @@ const Navbar = () => {
       <div
         className={
           !nav
-            ? "navlinks-for-mobile w-[40%] border-r border-gray-800"
+            ? "navlinks-for-mobile w-[40%] border-r border-gray-600"
             : "hidden"
         }
       >
-        <ul className="text-black md:hidden ml-1 ease-in duration-500">
+        <ul className="text-white md:hidden ml-1 ease-in duration-500">
           <a href="#">
             <li className="p-4  hover:text-gray-400 font-medium">Home</li>
           </a>
