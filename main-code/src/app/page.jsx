@@ -1,10 +1,11 @@
 import Image from "next/image";
-import heroImg from "/public/img.jpg";
+import heroImage from "/public/img.jpg";
 import { ArrowRight } from "lucide-react";
 import f1 from "/public/ManufacturingExcel.png";
 import f2 from "/public/machineryFinal.png";
 import f3 from "/public/sustainablity.jpg";
 import f4 from "/public/clientCentric.jpg";
+// import Gallery from "@/components/slider";
 
 export default function Home() {
   return (
@@ -31,11 +32,12 @@ export default function Home() {
             </a>
           </div>
           <div className="md:flex hidden justify-end">
-            <Image className="rounded-2xl h-full w-[50%]" src={heroImg} />
+            <Image className="rounded-2xl h-full w-[50%]" src={heroImage} />
           </div>
         </div>
       </div>
       <div className="">
+        /{" "}
         <p className="font-semibold text-gray-400 max-w-[1128px] p-4 mx-auto text-center mt-20">
           At Minu Creations, we believe that every product we create is a
           testament to our dedication to craftsmanship and precision.
@@ -87,6 +89,7 @@ export default function Home() {
           </a>
         </div>
       </div>
+      {/* <Gallery /> */}
     </>
   );
 }

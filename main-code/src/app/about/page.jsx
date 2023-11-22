@@ -100,7 +100,7 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 max-w-[1128px] mt-12 mb-6 mx-auto p-4">
           <Image
             src={a1}
-            className="rounded-3xl h-4/5 w-3/5 md:h-36 md:w-36 mx-auto md:mx-0"
+            className="rounded-3xl h-full w-full md:h-36 md:w-36 mx-auto md:mx-0"
           />
           <div className=" md:col-span-2 text-center md:text-start">
             <h2 className="text-2xl md:text-3xl font-bold text-yellow-300 mb-2">
